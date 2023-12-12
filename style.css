@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+header{ 
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 8vh 0;
+}
+.sections{
+  max-width: 100vw;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-left: 30vw;
+}
+.profile{
+  margin: 0 50px;
+  padding: 10px 0;
+  
+}
+.logo-menu{
+  text-decoration: none;
+  font-weight: 500;
+  color: #f51e1e;
+  font-size: 2em;
+  padding: 0 0 0 20vw;
+}
+.navigation{
+  min-width: 75vw;
+
+}
+.menu{
+  text-decoration: none;
+  color: black
+}
+
+ .menu:hover{
+  border-bottom: 2px solid black;
+  font-weight: 400;
+  color: red;
+  padding-bottom: 5px;
+}
+a:active{
+  
+  color: red;
+  
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  margin:10vh 8vw;
+  background-color: rgb(255, 98, 98);
+  border-radius: 10px;
+  box-shadow: 5px 6px 16px 4px;
+}
+.bold{
+  font-size: 1.2em;
+  font-weight: 500;
+}
+#profile_details{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 5vh;
+ flex-wrap: wrap;
+}
+.line{
+  border: 5px solid lightgray;
+  width: 80%;
+}
+.form_heading{
+  margin-left: 20vw;
+  font-size: 2em;
+  margin-top: 10vh;
+}
+label{
+  font-size: 1.2em;
+}
+
+
+.light{
+  font-size: 0.6em;
+  font-weight: 300;
+}
+#address_details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+.city{
+  max-width: 250px;
+}
+.state{
+  margin-right: 12px;
+}
+#contact_details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+footer{
+  background-color: bisque;
+  margin-top:10vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 20vh;
+ 
+}
+.end{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10vw;
+  
+}
+.our-address{
+ font-size: 0.9em;
+ margin-left: 5vw;
+ margin-top: 2vh;
+}
+.fotend{
+  margin-top: 2vh;
+}

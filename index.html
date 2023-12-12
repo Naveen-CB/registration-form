@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Ticket Registration</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <header>
+    <div class="logo"><a href="#home" class="logo-menu">CineMax</a></div>
+    <nav class="navigation">
+      
+      <ul class="sections">
+        <li class="profile info"><a href="#profile_details" class="menu">Profile</a></li>
+        <li class="profile"><a href="#address_details" class="menu">Address</a></li>
+        <li class="profile"><a href="#contact_details" class="menu">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <Main>
+    <section class="hero">
+      <h2 id="home">Chritmas Offer</h2>
+      <p class="Info">Free tickets for <span class="bold"> 100 lucky customers!</span></p>
+      <p class="detail">fill the form to become a lucky winner</p>
+    </section>
+    <h2 class="form_heading">Profile<span class="material-symbols-outlined">
+      person
+      </span></h2>
+    <div class="line"></div>
+    <section id="profile_details" aria-labelledby="username" role="region">
+      
+      
+      <label for="first_name"> First Name: <input type="text" placeholder="eg. Kevin" required></label><br>
+      <label for="Last_name"> Last Name: <input type="text" placeholder="eg. andreus" id="Last_name" required></label><br>
+      <label for="Date_of_birth "> D O B. : <input type="date" id="Date_of_birth" required></label>
+    </section>
+    <h2 class="form_heading">Address<span class="material-symbols-outlined">
+      home
+      </span></h2>
+    <div class="line"></div>
+    <section id="address_details" aria-labelledby="address_details" role="region">
+      <label for="address">Address: <input type="text" id="address" ></label><br>
+      <label for="address" class="city">City: <select  id="address" required >
+        <option value="no-value">select city</option>
+        <option value="madurai">Madurai</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Palani">Palani</option>
+        <option value="Ramanathapuram">Ramanathapuram</option>
+      </select><span class="light">(*service only availabel for this city)</span></label><br>
+      <label for="state" class="state">State:
+      <select name="state" id="state" required>
+        <option value="Tamilnadu">select state</option>
+        <option value="Tamilnadu">Tamilnadu, India(only)</option>
+      </select></label><br>
+      <label for="pin-code">PIN Code: 
+        <input type="text" id="pin-code" name="PIN" placeholder="625201" required>
+      </label>
+    </section>
+    <h2 class="form_heading">Contact Details<span class="material-symbols-outlined">
+      contacts
+      </span></h2>
+    <div class="line"></div>
+    <section id="contact_details" aria-labelledby="contact_details" role="region">
+      <label for="mobile-number">phone Number:
+        <input type="tel" id="mobile-number" name="phone" placeholder="+91-9876543210" required>
+      </label><br>
+      <label for="mail">Email:
+        <input type="email" id="mail" placeholder="123@gmail.com" required>
+      </label>
+    </section>
+  </Main>
+  <footer>
+    <p class="our-address">East street madurai<br> Tamilnadu India</p>
+    <ul class="sections">
+      <li class="end"><a href="#" class="menu fotend">Help</a></li><br>
+      <li class="end"><a href="#" class="menu fotend">about us</a></li>
+      <li class="end"><a href="#" class="menu fotend">contact us</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
